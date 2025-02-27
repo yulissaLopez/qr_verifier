@@ -1,6 +1,6 @@
 import qrcode
 
-url = "https://example.com/"
+url = "https://qrverifier-production.up.railway.app/verificacion/verificar/"
 
 qr = qrcode.make(url)
 
