@@ -1,1 +1,1 @@
-web: gunicorn nombre_proyecto.wsgi --log-file -
+web: gunicorn qr_verifier_scmt.wsgi --log-file -
