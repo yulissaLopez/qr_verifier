@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.utils.timezone import now, make_aware
 import datetime
 
-EXPIRACION = make_aware(datetime.datetime(2025, 3, 24, 20, 41, 59))
+EXPIRACION = make_aware(datetime.datetime(2025, 2, 25, 20, 41, 59))
 
 def verificar_distintivo(request):
     ahora = now()
