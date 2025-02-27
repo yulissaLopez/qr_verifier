@@ -1,0 +1,44 @@
+# Entorno virtual
+env/
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración del entorno
+*.env
+*.venv
+.envrc
+.env.*
+
+# Archivos de bases de datos locales
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos de logs
+logs/
+*.log
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos de caché de Django
+*.cache
+*.pyc
+
+# Archivos estáticos generados
+staticfiles/
+static/
+media/
+
+# Migraciones innecesarias (opcional, si deseas excluirlas)
+**/migrations/*.py
+!**/migrations/__init__.py
